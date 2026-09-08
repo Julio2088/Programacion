@@ -22,13 +22,14 @@ int main () {
 
     puts("Pon la temperatura en celsius");
     scanf("%f", &celsius);
-    if (celsius) {
-        farenheit = ((9.0/5.0)*celsius) + 32;
-        printf("La temperatura en farenheit es %.2f\n", farenheit);
-    }
+  
+    farenheit = ((9.0/5.0)*celsius) + 32;
+    printf("La temperatura en farenheit es %.2f\n", farenheit);
+    
     
     float calicifacion1, calificacion2, calificacion3, promedio, ponderacion1, ponderacion2, ponderacion3;
 
+    if (calicifacion1 && calificacion2 && calificacion3 && ponderacion1 && ponderacion2 && ponderacion3) {
     puts("Pon la calificacion 1 y su ponderacion");
     scanf("%f %f", &calicifacion1, &ponderacion1);
 
@@ -40,4 +41,15 @@ int main () {
 
     promedio = ((calicifacion1*ponderacion1) + (calificacion2*ponderacion2) + (calificacion3*ponderacion3)) / (ponderacion1 + ponderacion2 + ponderacion3);
     printf("El promedio es %.2f\n", promedio);
+    }
+    float kilometros, horas, velocidad_media;
+
+    puts("Pon la velocidad recorrida en kilometros y el tiempo empleado en horas");
+    scanf("%f %f",&kilometros,&horas);
+    if (kilometros && horas) {
+        velocidad_media = kilometros/horas;
+        printf("Tu velocidad media fue %f",velocidad_media);
+    }
+
+
 }
