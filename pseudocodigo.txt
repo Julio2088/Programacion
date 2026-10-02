@@ -1,0 +1,19 @@
+a) Obtener dos números desde el teclado, calcular su suma y mostrar el resultado.
+1. Inicializar variables
+2. Solicitar al usuario dos numeros
+3. Sumar los dos numeros solicitados
+4. Imprimir resultado
+b) Obtener dos números desde el teclado, y determinar y mostrar cuál (si alguno) de los dos números es el mayor.
+1. Inicializar variables
+2. Solicitar al usuario dos numeros
+3. Si el primer numero es mayor que segundo numero imprimir primer numero es mayor que segundo numero
+4. Si no si el segundo numero es primer que segundo numero imprimir segundo numero es mayor que primer numero
+5. Si no imprimir los numeros son igual
+c) Obtener una serie de números positivos desde el teclado, y determinar y mostrar su suma. 
+Supón que el usuario escribe el valor centinela -1 para indicar el “fin de la entrada de datos”.
+1. Inicializar variables
+2. Solicitar primer numero, -1 para salir
+3. Mientras que numero no sea -1
+4.  Sumar al contador numero
+5.  Pedir siguente numero, -1 para salir
+6. Imprimir contador
