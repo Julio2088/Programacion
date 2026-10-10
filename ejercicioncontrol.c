@@ -129,6 +129,7 @@ int main (){
 
     //Calculo de salario semanal
     
+
     int Codigo = 0;
     puts("Ingresa el codigo del primer empleado");
     scanf("%d",&Codigo);
@@ -271,5 +272,7 @@ int main (){
         }
         puts(""); // se pone un puts vacio al final para hacer un salto y hacer el siguiente calculo para el siguiente numero
     }
+
+    
     return 0;
 }
