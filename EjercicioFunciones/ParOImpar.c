@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//prototipo funciones
 int esPar(int Entero);
 
 int main(){
@@ -18,7 +18,7 @@ int main(){
     puts("Ingresa el quarto numero para evaluar si es par o impar");
     scanf("%d",&Entero4);
 
-    printf("%d %s\n",Entero1,esPar(Entero1) ? "es par" : "no es par");
+    printf("%d %s\n",Entero1,esPar(Entero1) ? "es par" : "no es par"); //si regresa 1, entonces es par y dice que es par, pero si regresa 0, entonces es impar
     printf("%d %s\n",Entero2,esPar(Entero2) ? "es par" : "no es par");
     printf("%d %s\n",Entero3,esPar(Entero3) ? "es par" : "no es par");
     printf("%d %s\n",Entero4,esPar(Entero4) ? "es par" : "no es par");
@@ -27,9 +27,9 @@ int main(){
 }
 
 int esPar(int Entero){
-    if (Entero%2){
-        return 0;
+    if (Entero%2){ 
+        return 0; //si el residuo de la division entre 2 es 1, es impar, osea falso 
     }else{
-        return 1;
+        return 1; //si el residuo de la division entre 2 es 0, es par, osea verdadero
     }
 }
